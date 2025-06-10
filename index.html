@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign Up</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      display: flex;
+      justify-content: center; 
+      align-items: center;   
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    form {
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      width: 320px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+    .form-group {
+      margin-bottom: 0.8rem;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.1rem;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+    input {
+      width: 100%;
+      padding: 0.5rem;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+    button {
+      width: 100%;
+      padding: 0.6rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 4px;
+      background-color: #2738f2;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #737cdd;
+    }
+  </style>
+</head>
+<body>
+  <form id="createUserForm">
+    <h1>Create New User</h1>
+
+    <div class="form-group">
+      <!-- <label for="divUDID">Device UDID:</label> -->
+      <input
+        type="hidden"
+        id="divUDID"
+        name="deviceUDID"
+        placeholder="ABC123DEVICE"
+        required
+      >
+    </div>
+
+    <div class="form-group">
+      <label for="enrollType">Enrollment Doc Type:</label>
+      <input
+        type="text"
+        id="enrollType"
+        name="enrollmentDocType"
+        placeholder="Passport"
+        required
+      >
+    </div>
+
+    <div class="form-group">
+      <label for="lname">Last Name:</label>
+      <input
+        type="text"
+        id="lname"
+        name="lastName"
+        placeholder="Smith"
+        required
+      >
+    </div>
+
+    <div class="form-group">
+      <label for="fname">First Name:</label>
+      <input
+        type="text"
+        id="fname"
+        name="firstName"
+        placeholder="Jane"
+        required
+      >
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="jane.smith@example.com"
+        required
+      >
+    </div>
+
+    <div class="form-group">
+      <label for="mobile">Mobile:</label>
+      <input
+        type="tel"
+        id="mobile"
+        name="mobile"
+        placeholder="0711122233"
+        required
+      >
+    </div>
+
+    <div class="form-group">
+      <label for="deviceType">Device Type:</label>
+      <input
+        type="text"
+        id="deviceType"
+        name="deviceType"
+        placeholder="Android"
+        required
+      >
+    </div>
+
+    <button type="submit">Create Account</button>
+  </form>
+ 
+  <script src="script.js"></script>
+  
+</body>
+</html>
