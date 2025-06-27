@@ -121,7 +121,7 @@ Deși este în format XML, poți vedea clar ce câmpuri sunt așteptate de serve
   Codul este conceput ca punct de plecare, oferind o bază clară și funcțională de la care poți porni dezvoltarea propriei aplicații.
 
 ## Reguli și criterii de jurizare
-- **Urban Mobility**:  Relevanța pentru nevoile urbane locale - Cât de bine răspunde soluția voastră la probleme reale de mobilitate urbană (ex: plăți contactless în transport, acces facil în zone aglomerate, integrare cu infrastructura digitală locală).
+- **Urban Mobility**:  Relevanța pentru nevoile urbane locale - Cât de eficient răspunde soluția voastră provocărilor reale de identitate digitală în orașele moderne(ex: autentificare rapidă în transportul public, acces securizat la servicii locale, integrare cu infrastructura digitală urbană)?
 
 - **Innovation**: Inovație tehnologică și originalitate - În ce măsură proiectul aduce o idee nouă sau valorifică recunoașterea facială într-un mod neexplorat până acum?
 
